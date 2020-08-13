@@ -1,0 +1,35 @@
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partners__item {
+    display: flex;
+    flex-basis: 24%;
+    max-width: 300px;
+    margin-bottom: 76px;
+}
+
+.partners__item:nth-child(4n + 1) {
+    justify-content: flex-start;
+}
+
+.partners__item:nth-child(4n) {
+    justify-content: flex-end;;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
+    transition: .8s;
+}
+

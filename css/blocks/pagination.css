@@ -1,0 +1,58 @@
+
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pager--theme--red {
+    color: #000000;
+    margin-top: 70px;
+}
+
+.pager--theme--red .pager__item--active .pager__link{
+    color: #fff;
+    background:#f5170e;
+
+}
+
+.pager--theme--red .pager__link:hover {
+    color: #fff;
+    background:#f5170e;
+    transition: .8s;
+}
+
+
+.pager__display{
+    margin-right: 26px;
+    font-size: 16px;
+
+}
+
+.pager__display {
+    margin-right: 26px;
+}
+
+.pager__list {
+    display: flex;
+    align-items: center;
+}
+
+.pager__item {
+    text-align: center;
+}
+
+.pager__item--active .pager__link {
+    background: #fff;
+    color: #F5170E;
+}
+
+.pager__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}

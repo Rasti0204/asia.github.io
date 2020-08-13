@@ -1,0 +1,71 @@
+
+.button {
+    display: inline-block;
+    background:#F5170E;
+    border-radius: 26px;
+    padding: 17px 39px 17px 39px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.button:hover{
+    transition: .8s;
+    background: #DA0100;
+}
+
+
+.offers__button-wrapper {
+    display: flex;
+    justify-content: flex-start;  
+}
+
+.button--color--white {
+    background: #ffffff;
+    color: #F5170E;
+    border: solid 1px #F5170E;
+    padding: 16px 30px;
+}
+
+.button--color--white:hover{
+    background: #F5170E;
+    color: #FFFFFF;
+    transition: .8s;
+}
+
+.button--color--red {
+    background: #F5170E;
+    padding: 16px 31px;
+}
+
+
+.button__detail {
+    border-radius: 26px;
+    padding: 17px 39px 17px 39px;
+}
+
+
+.button--color-black {
+    background-color: #8e8e8e;
+}
+
+.button--color-black:hover {
+    transition: .8s;
+    background-color: #2b2b2b;
+}
+
+.form__button {
+    margin-right: 20px;
+}
+
+.form__button:last-child {
+    margin-right: 0;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+

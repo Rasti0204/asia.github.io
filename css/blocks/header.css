@@ -1,0 +1,31 @@
+
+.header {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+.top-line {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 27px;
+    background: #1a1b1e url("../../img/bg/headline.jpg") no-repeat;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
